@@ -105,7 +105,20 @@ h1:hover, h2:hover, h3:hover{
 nav div div{
     display: flex;
     gap:1.5rem;
-    padding:
+    padding:1rem;
+    background-color:2px solid black;
+    border-bottom:2px solid black;
     
 }
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    padding:0.5rem 1rem;
+    border-radius:4px;
+    
+}
+
+
 
