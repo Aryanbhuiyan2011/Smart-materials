@@ -92,12 +92,12 @@ body{
     font-style:italic;
 }
 
-h1,h2,h3{
+h1,h2{
     display:inline-block;
     transition:transform 0.2s ease;
 }
 
-h1:hover, h2:hover, h3:hover{
+h1:hover, h2:hover {
     transform:scale(1.05);
     
 }
