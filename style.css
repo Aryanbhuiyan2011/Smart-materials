@@ -94,10 +94,11 @@ body{
 
 h1,h2,h3{
     display:inline-block;
-    transition:transform 0.2s;
+    transition:transform 0.2s ease, text-shadow 0.2s ease;
 }
 
 h1:hover, h2:hover, h3:hover{
     transform:scale(1.05);
+    text-shadow:4px 4px 0px #13be85
 }
 
