@@ -1,9 +1,10 @@
 body{
-    font-family: "Comic Sans MS", "Chalkboard SE", cursive;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color:#1a1a2e;
     color: #c9d1d9;
     line-height:1.6;    
 }
+
 
 .navbar{
     background-color:black;
@@ -92,3 +93,4 @@ body{
     margin-top:0.75rem;
     font-style:italic;
 }
+
