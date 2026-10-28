@@ -1,6 +1,6 @@
 body{
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    background-color:black;
+    background-color:#1a1a2e;
     color:#c9d1d9;
     line-height:1.6;    
 }
@@ -26,10 +26,45 @@ body{
     color:#8b949e;
     margin-left:1.5rem;
     font-size:0.95rem;
+    text-decoration:none;
 }
 
-.nav-links a:hover,
-.nav-links a:active{
+.nav-links a:hover ,
+.nav-links a.active{
     color:#238636;
     font-weight:bold;
+}
+
+.container{
+    max-width:800px;
+    margin:2rem auto;
+    padding:0 1rem;
+}
+
+.hero{
+    text-align:center;
+    margin-bottom:2rem;
+}
+
+.hero h1{
+    font-size:2.2rem;
+    color:#56d364;
+    margin-bottom:0.5rem;
+}
+
+.section{
+    background-color:black;
+    padding: 2rem;
+    margin-bottom:1.5rem;
+    border-radius:8px;
+    border:1px solid black;
+
+}
+
+.section h2{
+    color:#56d364;
+    margin-bottom:1rem;
+    font-size:1.4rem;
+    border-bottom:2px solid black;
+    padding-bottom:0.5rem;
 }
