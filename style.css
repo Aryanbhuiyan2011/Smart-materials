@@ -1,8 +1,8 @@
-
 body{
-    'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+    background-color:black;
+    color:white;
+    font-family:"Comic Sans MS", sans-serif;
 }
-
 
 .navbar{
     background-color:black;
