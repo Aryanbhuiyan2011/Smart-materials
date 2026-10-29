@@ -10,6 +10,12 @@ body{
     padding:1rem 2rem;
     position:sticky;
     top:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:1.5rem;
+    max-width:900px;
+    margin 0 auto;
     
 }
 
