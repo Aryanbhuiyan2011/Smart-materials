@@ -120,5 +120,19 @@ nav a{
     
 }
 
+.concept-box{
+    background:white;
+    border:2px solid #e0e0e0;
+    border-radius:8px;
+    padding:20px;
+    transition: border-color 0.2s ease, transform 0.2s ease;
+    
+}
+
+.concept-box:hover{
+    border-color:#0070f3;
+    transform:translateY(-2px);
+}
+
 
 
