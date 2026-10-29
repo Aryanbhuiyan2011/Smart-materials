@@ -134,5 +134,13 @@ nav a{
     transform:translateY(-2px);
 }
 
+.card {
+    width:150px;
+    aspect-ratio:0.69;
+    position:relative;
+    background:cemter/90% no-repeat;
+    background-image:url("steel.jpg");
+}
+
 
 
