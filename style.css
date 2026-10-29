@@ -134,39 +134,7 @@ nav a{
     transform:translateY(-2px);
 }
 
-.card {
-    width:150px;
-    aspect-ratio:0.69;
-    position:relative;
-    background:cemter/90% no-repeat;
-    background-image:url("steel.jpg");
-}
 
-.card{
-    border-image-source:linear-gradient (-45deg, red 0%, transparent 0%);
-    border-image-slice:1;
-    border-image-width:5px;
-
-    border-image-outset:5px;
-}
-
-@property --p{
-    syntax: "<percentage>";
-    initial-value:0%;
-    inherits:false;
-}
-
-.card{
-    border-image-source:linear-gradient(-45deg, red var(--p), transparent 0%);
-}
-
-.card{
-    border-image-source:linear-gradient(-45deg, red var(--p), transparent 0%);
-
-    &:hover{
-        --p:100%;
-    }
-}
 
 
 
