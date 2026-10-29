@@ -71,7 +71,6 @@ body{
 
 .section:hover{
     border-color:blue;
-    padding:30%;
     transform:translateY(-3px);
 }
 
