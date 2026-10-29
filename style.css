@@ -74,10 +74,6 @@ body{
     transform:translateY(-3px);
 }
 
-.selection:hover::before{
-    opacity:1;
-    transform:scale(1.01);
-}
 
 .image-container{
     background-color: black;
@@ -130,6 +126,8 @@ nav a{
     border-radius:4px;
     
 }
+
+
 
 
 
