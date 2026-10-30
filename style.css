@@ -139,25 +139,28 @@ nav a{
 .menubar{
     background-color:black;
     border-bottom:1px solid #30363d;
-    padding:1rem 2rem;
+    padding:20px;
     position:sticky;
     top:0;
     display:flex;
     justify-content:center;
     align-items:stretch;
     gap:1.5rem;
-    max-width:900px;
+    max-width:100%;
     margin: 0 auto;
+    box-sizing:border-box;
+}
     
 }
 
 .menu-container{
-    max-width:260px;
+    max-width:100%;
     margin:0 auto;
     display:flex;
     justify-content:space-between;
     align-items:center;
     flex-direction:row-reverse;
+    box-sizing:border-box;
 }
 
  .modern-page .hero{
