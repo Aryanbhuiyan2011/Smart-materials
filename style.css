@@ -194,6 +194,12 @@ nav a{
     transform:translateY(-3px);
 }
 
+.modern-links a:hover ,
+.modern-links a.active{
+    color:#2a40be;
+    font-weight:bold;
+}
+
 
 
 
