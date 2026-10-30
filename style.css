@@ -7,16 +7,16 @@ body{
 .navbar{
     background-color:black;
     border-bottom:1px solid #30363d;
-    padding:40px;
+    padding:20px;
     position:sticky;
     top:0;
     display:flex;
     justify-content:center;
     align-items:stretch;
     gap:1.5rem;
-    max-width:900px;
+    max-width:100%;
     margin: 0 auto;
-    flex:1 1 auto;
+    box-sizing:border-box;
     
 }
 
