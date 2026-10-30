@@ -134,6 +134,66 @@ nav a{
     
 }
 
+.menubar{
+    background-color:black;
+    border-bottom:1px solid #30363d;
+    padding:1rem 2rem;
+    position:sticky;
+    top:0;
+    display:flex;
+    justify-content:center;
+    align-items:stretch;
+    gap:1.5rem;
+    max-width:900px;
+    margin: 0 auto;
+    
+}
+
+.menu-container{
+    max-width:260px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction:row-reverse;
+}
+
+ .modern-page .hero{
+    text-align:center;
+    margin-bottom:2rem;
+}
+
+ .modern-page .hero h1{
+    font-size:2.2rem;
+    color:#2a40be;
+    margin-bottom:0.5rem;
+}
+
+ .modern-page .section{
+    background-color:black;
+    padding: 2rem;
+    margin-bottom:1.5rem;
+    border-radius:8px;
+    border:1px solid black;
+    transition: border-color 0.3s ease, transform 0.3s ease;
+
+}
+
+ .modern-page .section h2{
+    color:#2a40be;
+    margin-bottom:1rem;
+    font-size:1.4rem;
+    border-bottom:2px solid black;
+    padding-bottom:0.5rem;
+}
+
+ .modern-page .section:hover{
+    border-color:#2a40be;
+    transform:translateY(-3px);
+}
+
+
+
 
 
 
